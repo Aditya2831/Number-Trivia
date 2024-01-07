@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(216, 203, 235);
+}
+
+.container{
+    background: linear-gradient(135deg, #07010d, #847ac0);
+    width: 95vw;
+    font-size: 16px;
+    max-width: 31.25em;
+    padding: 3.5em 2.5em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 0.6rem;
+    box-shadow: 0 1.2rem 3rem rgba(0, 4, 52, 0.2);
+}
+
+.search-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container input, .container button{
+    font-size: 1.25rem;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.container input{
+    width: 40%;
+    border: 1px solid rgb(70, 57, 40);
+    padding: 0.6rem;
+}
+
+.container button{
+    width: 55%;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 500;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+#ran-fact-btn{
+    width: 100%;
+    margin-top: 1em;
+}
+
+.fact{
+    background-color: whitesmoke;
+    box-shadow: 0 0 1.2em rgb(6, 6, 48);
+    margin: 3em auto 0 auto;
+    padding: 2.8em 1.8em;
+    border-radius: 0.6em;
+    border: none;
+    border-bottom: 0.6em solid rgb(31, 136, 197);
+    display: none;
+}
+
+.fact h2{
+    font-size: 2.8em;
+    color: darkblue;
+}
+
+.fact p{
+    font-size: 1.15em;
+    font-weight: 400;
+    color: currentColor;
+    line-height: 1.8em;
+    text-align: justify;
+    margin-top: 0.8em;
+}
+
+p.msg{
+    text-align: center;
+    font-weight: 500;
+    color: darkblue;
+}
